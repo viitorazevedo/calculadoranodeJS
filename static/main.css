@@ -1,0 +1,27 @@
+.containerGeral{
+display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#inputDisplayResultado{
+    font-size: 40px;
+    width: 100%;
+    text-align: right;
+}
+.areaCalculadora{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.row div{
+    padding: 0
+}
+.row div button{
+    width:100%;
+}
