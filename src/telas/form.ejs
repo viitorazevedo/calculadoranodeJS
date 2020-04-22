@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script>
+            // 4) Implementar um formulário (form.html) com dois campos input para
+            // receber 2 valores e quatro botões, um para cada operação.
+            function enviaSoma () {
+                const x = document.getElementById('x').value
+                const y = document.getElementById('y').value
+
+                console.log(x, y)
+                axios.post('/soma', {
+                    x: x,
+                    y: y,
+                })
+            
+            }
+
+            function enviaSubtracao () {
+                const x = document.getElementById('x').value
+                const y = document.getElementById('y').value
+
+                console.log(x, y)
+                axios.post('/subtracao', {
+                    x: x,
+                    y: y
+                })
+            }
+
+            function enviaMultiplicacao () {
+                const x = document.getElementById('x').value
+                const y = document.getElementById('y').value
+
+                console.log(x, y)
+                axios.post('/multiplicacao', {
+                    x: x,
+                    y: y
+                })
+            }
+
+            function enviaDivisao () {
+                const x = document.getElementById('x').value
+                const y = document.getElementById('y').value
+
+                console.log(x, y)
+                axios.post('/divisao', {
+                    x: x,
+                    y: y
+                })
+            }
+        </script>
+    </head>
+    <body>
+        <input id='x' type="number" />
+        <input id='y' type="number" />
+
+        <button onclick="enviaSoma()">Soma</button>
+        <button onclick="enviaSubtracao()">Subtração</button>
+        <button onclick="enviaMultiplicacao()">Multiplicação</button>
+        <button onclick="enviaDivisao()">Divisão</button>
+    </body>
+</html>
