@@ -2,10 +2,7 @@
 ## Projeto de calculadora desenvolvido em node
 
 
-Vitor Benedito Azevedo 
-
-
- Ferramentas que utilizadas:
+ Ferramentas utilizadas:
 
 Canal Mundo JS youtube:
 https://www.youtube.com/channel/UCjqdzgW_ri4sl4gtzVirmkQ
