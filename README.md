@@ -44,5 +44,5 @@ O Axios pode ser utilizado de várias outras formas, essa me atendeu a demanda; 
 Caso vá utilizar o nodemon pode baixar através do: npm i nodemon; \
 Segue biblioteca: https://github.com/remy/nodemon/; \
 npm run dev para startar o servidor; \
-Projeto está na porta 8080; \
+Projeto está na porta 8080; 
 
