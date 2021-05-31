@@ -31,7 +31,7 @@ https://requirejs.org/docs/commonjs.html
 
  ## Passo a passo:
 
-Descompactar o projeto ou clonar do GitHub;
+Descompactar o projeto ou clonar do GitHub; \
 Abrir o terminal do VS Code ou ferramenta similar;
 npm init: Configurar o package json;
 npm install;
