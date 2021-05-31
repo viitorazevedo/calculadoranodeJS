@@ -45,6 +45,5 @@ Caso vá utilizar o nodemon pode baixar através do: npm i nodemon; \
 Segue biblioteca: https://github.com/remy/nodemon/; \
 npm run dev para startar o servidor; \
 Projeto está na porta 8080; \
-
-Calculadora funcionando: \ 
+Calculadora funcionando: 
 
